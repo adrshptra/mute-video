@@ -1,0 +1,27 @@
+{
+  "name": "auto-mute-video-service",
+  "version": "1.0.0",
+  "description": "Enterprise Auto Mute Video Service - Remove audio from videos using FFmpeg",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "video",
+    "mute",
+    "ffmpeg",
+    "audio-removal",
+    "enterprise"
+  ],
+  "author": "Enterprise Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
